@@ -1,0 +1,147 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "doccap"
+            VALUE "CompanyName", "www.wyu200.com"
+            VALUE "FileDescription", "doccap"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "doccap.dll"
+            VALUE "LegalCopyright", "Copyright (C) 2008-2010, www.wyu200.com."
+            VALUE "OriginalFilename", "doccap.dll"
+            VALUE "ProductName", "doccap"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_EDFDOCCAPCTRL       REGISTRY                "doccap.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DOCIMPINFO_VIEW DIALOGEX 0, 0, 231, 39
+STYLE DS_SYSMODAL | DS_SETFONT | WS_VISIBLE | WS_CAPTION
+CAPTION "文档转换信息窗口"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_DOCINFOPROGRESS,"msctls_progress32",WS_BORDER | 0x1,53,20,173,14
+    RTEXT           "文档处理：",IDC_STATIC,3,23,47,8
+    RTEXT           "信    息：",IDC_STATIC,3,7,47,8
+    LTEXT           "",IDC_DOCINFO,54,7,172,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// LOGO
+//
+
+IDR_LOGO1               LOGO                    "logo.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "doccap"
+    IDS_APPTITLE            "EmfScope"
+    IDS_SPOOLERMISSING      "Spooler can't loaded"
+    ID_PROGRESS_PANE        "Progress Bar Pane"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

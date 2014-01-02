@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "edfdriverdemo", "edfdriverdemo.vcproj", "{D006D76B-A7B4-4C15-9BC2-1EE175140920}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "edfdriverdemo2", "..\edfdriverdemo2\edfdriverdemo2.vcproj", "{7617F4EC-51F1-4975-9BE1-2D0BF1432900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Debug|Win32.Build.0 = Debug|Win32
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Release|Win32.ActiveCfg = Release|Win32
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Release|Win32.Build.0 = Release|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Debug|Win32.Build.0 = Debug|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Release|Win32.ActiveCfg = Release|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

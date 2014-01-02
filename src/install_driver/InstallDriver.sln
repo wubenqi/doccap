@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InstallDriver", "InstallDriver.vcproj", "{DD47609E-547A-41A8-896C-C21F0B50061F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EDFDOCCapCtrl", "..\EDFDOCCapCtrl\EDFDOCCapCtrl.vcproj", "{FC6D0D3B-A9C4-401A-8B85-89BDBF061CD5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E53F6981-7626-4ADC-A839-A4D154A4EB5B} = {E53F6981-7626-4ADC-A839-A4D154A4EB5B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "edf95hookdll", "..\EDFDOCCapCtrl\edf95hookdll\edf95hookdll.vcproj", "{E53F6981-7626-4ADC-A839-A4D154A4EB5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Debug|Win32.Build.0 = Debug|Win32
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Release|Win32.ActiveCfg = Release|Win32
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Release|Win32.Build.0 = Release|Win32
+		{FC6D0D3B-A9C4-401A-8B85-89BDBF061CD5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC6D0D3B-A9C4-401A-8B85-89BDBF061CD5}.Debug|Win32.Build.0 = Debug|Win32
+		{FC6D0D3B-A9C4-401A-8B85-89BDBF061CD5}.Release|Win32.ActiveCfg = Release|Win32
+		{FC6D0D3B-A9C4-401A-8B85-89BDBF061CD5}.Release|Win32.Build.0 = Release|Win32
+		{E53F6981-7626-4ADC-A839-A4D154A4EB5B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E53F6981-7626-4ADC-A839-A4D154A4EB5B}.Debug|Win32.Build.0 = Debug|Win32
+		{E53F6981-7626-4ADC-A839-A4D154A4EB5B}.Release|Win32.ActiveCfg = Release|Win32
+		{E53F6981-7626-4ADC-A839-A4D154A4EB5B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

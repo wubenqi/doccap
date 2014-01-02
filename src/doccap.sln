@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doccap", "doccap\doccap.vcproj", "{B7F9B26A-888E-4F28-8CDE-390BF54648FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "edfdriverdemo", "demo\edfdriverdemo\edfdriverdemo.vcproj", "{D006D76B-A7B4-4C15-9BC2-1EE175140920}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "edfdriverdemo2", "demo\edfdriverdemo2\edfdriverdemo2.vcproj", "{7617F4EC-51F1-4975-9BE1-2D0BF1432900}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InstallDriver", "install_driver\InstallDriver.vcproj", "{DD47609E-547A-41A8-896C-C21F0B50061F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7F9B26A-888E-4F28-8CDE-390BF54648FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7F9B26A-888E-4F28-8CDE-390BF54648FC}.Debug|Win32.Build.0 = Debug|Win32
+		{B7F9B26A-888E-4F28-8CDE-390BF54648FC}.Release|Win32.ActiveCfg = Release|Win32
+		{B7F9B26A-888E-4F28-8CDE-390BF54648FC}.Release|Win32.Build.0 = Release|Win32
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Debug|Win32.Build.0 = Debug|Win32
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Release|Win32.ActiveCfg = Release|Win32
+		{D006D76B-A7B4-4C15-9BC2-1EE175140920}.Release|Win32.Build.0 = Release|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Debug|Win32.Build.0 = Debug|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Release|Win32.ActiveCfg = Release|Win32
+		{7617F4EC-51F1-4975-9BE1-2D0BF1432900}.Release|Win32.Build.0 = Release|Win32
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Debug|Win32.Build.0 = Debug|Win32
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Release|Win32.ActiveCfg = Release|Win32
+		{DD47609E-547A-41A8-896C-C21F0B50061F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

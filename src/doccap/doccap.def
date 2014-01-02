@@ -1,0 +1,10 @@
+; doccap.def : 定义模块参数。
+
+LIBRARY      "doccap.DLL"
+
+EXPORTS
+	InstallDriver
+	RemoveDriver
+	CreateDOCCapObj
+	DestroyDOCCapObj
+	
